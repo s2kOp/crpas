@@ -1,8 +1,6 @@
-Here's your updated README with the additional feature included:  
 
----
 
-# CRPAS - Crime Rate Prediction and Alert System  
+# CRPAS - Crime Rate Prediction and Analysis System  
 
 ## 📌 Overview  
 CRPAS is a machine learning-based system that predicts crime rates. The project provides insights into crime trends across Indian states, offering estimated crime rates, case numbers, and population estimates for a given **year, state, and crime type**. It also identifies the **top 5 high-crime districts** in the selected state for the given crime type and year.  
