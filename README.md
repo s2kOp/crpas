@@ -1,50 +1,76 @@
-# Welcome to your Expo app 👋
+Here's your updated README with the additional feature included:  
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+---
 
-## Get started
+# CRPAS - Crime Rate Prediction and Alert System  
 
-1. Install dependencies
+## 📌 Overview  
+CRPAS is a machine learning-based system that predicts crime rates using **Facebook Prophet**. The project provides insights into crime trends across Indian states, offering estimated crime rates, case numbers, and population estimates for a given **year, state, and crime type**. It also identifies the **top 5 high-crime districts** in the selected state for the given crime type and year.  
 
+## 🎯 Features  
+- **Predicts** crime rate, estimated cases, and estimated population for a selected state and crime type.  
+- **Displays** the **top 5 high-crime districts** in a state for the selected crime type and year, along with the **number of cases**.  
+- **Machine Learning**: Uses **Facebook Prophet** for time-series forecasting.  
+- **Backend**: Flask (Python).  
+- **Frontend**: React Native.  
+- **APIs Used**: GNewsAPI (for crime-related news).  
+
+## 🏗️ Tech Stack  
+- **Frontend**: React Native  
+- **Backend**: Flask  
+- **Machine Learning**: Facebook Prophet  
+- **Data**: Preprocessed crime datasets  
+
+## 📦 Setup Instructions  
+
+### 🔹 Backend (Flask)  
+1. **Clone the repository**:  
+   ```bash
+   git clone https://github.com/your-repo/crpas.git
+   cd crpas/backend
+   ```  
+2. **Create a virtual environment** (recommended):  
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # For macOS/Linux
+   venv\Scripts\activate     # For Windows
+   ```  
+3. **Install dependencies**:  
+   ```bash
+   pip install -r requirements.txt
+   ```  
+4. **Run the Flask server**:  
+   ```bash
+   python -m flask run --host=0.0.0.0 --port=5000
+   ```  
+
+### 🔹 Frontend (React Native)  
+1. **Navigate to the frontend folder**:  
+   ```bash
+   cd ../frontend
+   ```  
+2. **Install dependencies**:  
    ```bash
    npm install
-   ```
-
-2. Start the app
-
+   ```  
+3. **Start the React Native app**:  
    ```bash
-    npx expo start
-   ```
+   npx expo start
+   ```  
 
-In the output, you'll find options to open the app in a
+## 📊 Machine Learning Model  
+- **Algorithm**: Facebook Prophet (time-series forecasting).  
+- **Training Data**: Historical crime data categorized by **state, district, year, and crime type**.  
+- **Predictions**:  
+  - Crime rate per 100,000 people.  
+  - Estimated number of crime cases.  
+  - Projected population for the selected year.  
+  - **Top 5 high-crime districts** in the selected state for the chosen crime type, with the **number of cases**.  
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## 🚀 Future Improvements  
+- Improving prediction accuracy with additional features.  
+- Implementing an interactive crime map visualization.  
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+---
 
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+Let me know if you need any more changes! 🚀
