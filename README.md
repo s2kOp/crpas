@@ -5,7 +5,7 @@ Here's your updated README with the additional feature included:
 # CRPAS - Crime Rate Prediction and Alert System  
 
 ## 📌 Overview  
-CRPAS is a machine learning-based system that predicts crime rates using **Facebook Prophet**. The project provides insights into crime trends across Indian states, offering estimated crime rates, case numbers, and population estimates for a given **year, state, and crime type**. It also identifies the **top 5 high-crime districts** in the selected state for the given crime type and year.  
+CRPAS is a machine learning-based system that predicts crime rates. The project provides insights into crime trends across Indian states, offering estimated crime rates, case numbers, and population estimates for a given **year, state, and crime type**. It also identifies the **top 5 high-crime districts** in the selected state for the given crime type and year.  
 
 ## 🎯 Features  
 - **Predicts** crime rate, estimated cases, and estimated population for a selected state and crime type.  
@@ -67,10 +67,3 @@ CRPAS is a machine learning-based system that predicts crime rates using **Faceb
   - Projected population for the selected year.  
   - **Top 5 high-crime districts** in the selected state for the chosen crime type, with the **number of cases**.  
 
-## 🚀 Future Improvements  
-- Improving prediction accuracy with additional features.  
-- Implementing an interactive crime map visualization.  
-
----
-
-Let me know if you need any more changes! 🚀
